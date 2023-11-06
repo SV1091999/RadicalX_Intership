@@ -17,7 +17,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
 {/* Navigation */}
       <nav>
         <ul style={{ height: '85px', backgroundColor: 'black', padding: '0px', display: 'flex', alignItems: 'center' }}>
