@@ -8,8 +8,6 @@ import Avatar from '../components/ellipse.jpg'
 import Status from '../components/Statusgreen.jpg'
 import Link from 'next/link'
 
-
-
 export default function Home() {
   return (
     <div>
