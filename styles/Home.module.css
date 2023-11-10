@@ -18,11 +18,16 @@
   background: '#1F222A',
 }
 
+/* Style for Mission LeaderBoard Rewards */
 .Mission_LeaderBoard_Rewards{
-  color: white;
+  color: grey;
   margin-left: 20px;
   display: flex;
   align-items: center;
+  font-weight: bold;
+  font-size:20px;
+  justify-content: center;
+  width: 200px;
 }
 
 .centeredLink {
@@ -72,28 +77,6 @@
   text-align: center;
   color: white;
   
-}
-
-
-.AvatarContainer {
-  position: relative; /* Enable positioning of child elements */
-}
-
-.StatusImage {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 15px; /* Set the desired width */
-  height: 15px; /* Set the desired height */
-  object-fit: cover; /* Ensure the image covers the container */
-  border-radius: 50%; /* Make it a circle */
-  z-index: 1; /* Ensure the Status image is on top */
-}
-
-
-.RoundImage img {
-  max-width: 100%; /* Ensure the image fits within the circle */
-  border-radius: 50%; /* Make sure the image inherits the circle shape */
 }
 
 .footer {
