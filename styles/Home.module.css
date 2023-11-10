@@ -12,6 +12,73 @@
   align-items: center;
 }
 
+.header{
+  width: 1536px;
+  height: 85px;
+  background: '#1F222A',
+}
+
+/* Style for Mission LeaderBoard Rewards */
+.Mission_LeaderBoard_Rewards{
+  color: grey;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size:20px;
+  justify-content: center;
+  width: 200px;
+}
+
+.centeredLink {
+  flex: 1; /* Distributes available space equally to center-align the links */
+  text-align: center; /* Centers the text horizontally within the list item */
+}
+
+.Diamond {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid skyblue;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.DiamondShape {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid black;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Coin{
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid gold;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  
+}
+
 .footer {
   display: flex;
   flex: 1;
